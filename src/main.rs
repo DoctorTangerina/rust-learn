@@ -1,5 +1,5 @@
 slint::slint!{
-    export component HelloWorld {
+    export component HelloWorld inherits Window {
         Text {
             text: "hello world";
             color: green;
